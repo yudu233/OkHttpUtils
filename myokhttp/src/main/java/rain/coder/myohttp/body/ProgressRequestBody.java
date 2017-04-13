@@ -9,7 +9,7 @@ import okio.BufferedSink;
 import okio.ForwardingSink;
 import okio.Okio;
 import okio.Sink;
-import rain.coder.myohttp.utils.LogUtils;
+import rain.coder.myohttp.response.IResponseHandler;
 
 /**
  * 重写request body 设置上传进度监听
@@ -17,95 +17,62 @@ import rain.coder.myohttp.utils.LogUtils;
  */
 public class ProgressRequestBody extends RequestBody {
 
-    protected RequestBody delegate;  //实际的待包装请求体
-    protected Listener listener;     //进度回调接口
-    protected CountingSink countingSink; //包装完成的BufferedSink
+    private IResponseHandler mResponseHandler;      //回调监听
+    private RequestBody mRequestBody;
+    private BufferedSink mBufferedSink;
 
-    public ProgressRequestBody(RequestBody delegate) {
-        this.delegate = delegate;
+    public ProgressRequestBody(RequestBody requestBody, IResponseHandler responseHandler) {
+        this.mResponseHandler = responseHandler;
+        this.mRequestBody = requestBody;
     }
 
-    public ProgressRequestBody(RequestBody delegate, Listener listener) {
-        this.delegate = delegate;
-        this.listener = listener;
-    }
-
-    public void setListener(Listener listener) {
-        this.listener = listener;
-    }
-
-    /**
-     * 重写调用实际的响应体的contentType
-     */
     @Override
     public MediaType contentType() {
-        return delegate.contentType();
+        return mRequestBody.contentType();
     }
 
-    /**
-     * 重写调用实际的响应体的contentLength
-     */
     @Override
-    public long contentLength() {
-        try {
-            return delegate.contentLength();
-        } catch (IOException e) {
-            LogUtils.eLog(e.getMessage());
-            return -1;
-        }
+    public long contentLength() throws IOException {
+        return mRequestBody.contentLength();
     }
 
-    /**
-     * 重写进行写入
-     */
     @Override
     public void writeTo(BufferedSink sink) throws IOException {
-        countingSink = new CountingSink(sink);
-        BufferedSink bufferedSink = Okio.buffer(countingSink);
-        delegate.writeTo(bufferedSink);
-        bufferedSink.flush();  //必须调用flush，否则最后一部分数据可能不会被写入
+        if (mBufferedSink == null) {
+            mBufferedSink = Okio.buffer(sink(sink));
+        }
+
+        //写入
+        mRequestBody.writeTo(mBufferedSink);
+        //必须调用flush，否则最后一部分数据可能不会被写入
+        mBufferedSink.flush();
     }
 
     /**
-     * 包装
+     * 写入，回调进度接口
+     *
+     * @param sink Sink
+     * @return Sink
      */
-    protected final class CountingSink extends ForwardingSink {
-        private long bytesWritten = 0;   //当前写入字节数
-        private long contentLength = 0;  //总字节长度，避免多次调用contentLength()方法
-        private long lastRefreshUiTime;  //最后一次刷新的时间
-        private long lastWriteBytes;     //最后一次写入字节数据
+    private Sink sink(Sink sink) {
+        return new ForwardingSink(sink) {
+            //当前写入字节数
+            long bytesWritten = 0L;
+            //总字节长度，避免多次调用contentLength()方法
+            long contentLength = 0L;
 
-        public CountingSink(Sink delegate) {
-            super(delegate);
-        }
-
-        @Override
-        public void write(Buffer source, long byteCount) throws IOException {
-            super.write(source, byteCount);
-            if (contentLength <= 0) contentLength = contentLength(); //获得contentLength的值，后续不再调用
-            bytesWritten += byteCount;
-
-            long curTime = System.currentTimeMillis();
-            //每200毫秒刷新一次数据
-            if (curTime - lastRefreshUiTime >= 200 || bytesWritten == contentLength) {
-                //计算下载速度
-                long diffTime = (curTime - lastRefreshUiTime) / 1000;
-                if (diffTime == 0) diffTime += 1;
-                long diffBytes = bytesWritten - lastWriteBytes;
-                long networkSpeed = diffBytes / diffTime;
-                if (listener != null)
-                    listener.onRequestProgress(bytesWritten, contentLength, networkSpeed);
-
-                lastRefreshUiTime = System.currentTimeMillis();
-                lastWriteBytes = bytesWritten;
+            @Override
+            public void write(Buffer source, long byteCount) throws IOException {
+                super.write(source, byteCount);
+                if (contentLength == 0) {
+                    //获得contentLength的值，后续不再调用
+                    contentLength = contentLength();
+                }
+                //增加当前写入的字节数
+                bytesWritten += byteCount;
+                //回调
+                //mResponseHandler.onProgress(bytesWritten, contentLength);
             }
-        }
-    }
-
-    /**
-     * 回调接口
-     */
-    public interface Listener {
-        void onRequestProgress(long bytesWritten, long contentLength, long networkSpeed);
+        };
     }
 }
