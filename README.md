@@ -11,7 +11,7 @@ OkHttp3 封装工具类
 - Android Studio的用户：
 在项目根目录build.gradle下添加
 
-``
+```java
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
@@ -19,14 +19,14 @@ allprojects {
     }
 }
 
-``
+```
 
 在APP目录下的build.gradle中添加依赖
 
-``
+```java
     compile 'com.github.yudu233:OkHttpUtils:1.0.2'
     
-``
+```
 
 ## 2.功能实现
 - [x] GET请求
