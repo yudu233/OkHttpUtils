@@ -24,13 +24,18 @@ public class JsonResponseHandler implements IResponseHandler {
 
 
     @Override
-    public void onErrorHttpResult(final int ErrorCode) {
+    public void onErrorHttpResult(final int command, final int ErrorCode) {
         OkHttpUtils.handler.post(new Runnable() {
             @Override
             public void run() {
-                jsonResponse.onErrorHttpResult(ErrorCode);
+                jsonResponse.onErrorHttpResult(command, ErrorCode);
             }
         });
+    }
+
+    @Override
+    public void onProgress(long currentBytes, long totalBytes) {
+
     }
 
     @Override
@@ -46,7 +51,7 @@ public class JsonResponseHandler implements IResponseHandler {
             OkHttpUtils.handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    onErrorHttpResult(((Response) response).code());
+                    onErrorHttpResult(command, ((Response) response).code());
                 }
             });
             return;
@@ -77,7 +82,7 @@ public class JsonResponseHandler implements IResponseHandler {
             OkHttpUtils.handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    onErrorHttpResult(((Response) response).code());
+                    onErrorHttpResult(command, ((Response) response).code());
                 }
             });
         }

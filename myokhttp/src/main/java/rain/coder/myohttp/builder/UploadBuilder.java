@@ -103,7 +103,7 @@ public class UploadBuilder extends OkHttpRequestBuilder<UploadBuilder> {
             myOkHttp.getOkHttpClient().newCall(request).enqueue(new CallBack(responseHandler, command));
         } catch (Exception e) {
             LogUtils.eLog("Upload enqueue error:" + e.getMessage());
-            responseHandler.onErrorHttpResult(0);
+            responseHandler.onErrorHttpResult(command,0);
         }
     }
 
@@ -111,6 +111,7 @@ public class UploadBuilder extends OkHttpRequestBuilder<UploadBuilder> {
     private void appendParams(MultipartBody.Builder builder, Map<String, String> params) {
         if (params != null && !params.isEmpty()) {
             for (String key : params.keySet()) {
+
                 builder.addPart(Headers.of("Content-Disposition", "form-data; name=\"" + key + "\""),
                         RequestBody.create(null, params.get(key)));
             }

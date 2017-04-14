@@ -48,11 +48,16 @@ public class GsonResponseHandler implements IResponseHandler {
     }
 
     @Override
-    public void onErrorHttpResult(final int ErrorCode) {
+    public void onProgress(long currentBytes, long totalBytes) {
+        
+    }
+
+    @Override
+    public void onErrorHttpResult(final int command, final int ErrorCode) {
         OkHttpUtils.handler.post(new Runnable() {
             @Override
             public void run() {
-                mGsonResponse.onErrorHttpResult(ErrorCode);
+                mGsonResponse.onErrorHttpResult(command, ErrorCode);
             }
         });
     }
@@ -70,7 +75,7 @@ public class GsonResponseHandler implements IResponseHandler {
             OkHttpUtils.handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    onErrorHttpResult(((Response) response).code());
+                    onErrorHttpResult(command, ((Response) response).code());
                 }
             });
             return;
@@ -99,7 +104,7 @@ public class GsonResponseHandler implements IResponseHandler {
                     OkHttpUtils.handler.post(new Runnable() {
                         @Override
                         public void run() {
-                            onErrorHttpResult(((Response) response).code());
+                            onErrorHttpResult(command, ((Response) response).code());
                         }
                     });
                 }

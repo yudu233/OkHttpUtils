@@ -16,9 +16,12 @@ import android.widget.RelativeLayout;
  */
 public class BaseActivity extends AppCompatActivity {
 
-
+    //加载中
     private LinearLayout mLoadingLayout;
+    //加载失败
     private RelativeLayout mErrorLayout;
+    //内容布局
+    private View childView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -27,7 +30,7 @@ public class BaseActivity extends AppCompatActivity {
 
     public void setContentView(@LayoutRes int layoutResID) {
         View baseView = getLayoutInflater().inflate(R.layout.activity_base, null, false);
-        View childView = getLayoutInflater().inflate(layoutResID, null, false);
+        childView = getLayoutInflater().inflate(layoutResID, null, false);
 
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         childView.getRootView().setLayoutParams(params);
@@ -38,16 +41,23 @@ public class BaseActivity extends AppCompatActivity {
         childView.getRootView().setVisibility(View.GONE);
 
         ViewStub mLoading = (ViewStub) baseView.findViewById(R.id.vsLoading);
-        ViewStub  mError = (ViewStub) baseView.findViewById(R.id.vsError);
+        ViewStub mError = (ViewStub) baseView.findViewById(R.id.vsError);
 
         View mErrorView = mError.inflate();
         View mLoadingView = mLoading.inflate();
 
         mErrorLayout = (RelativeLayout) mErrorView.findViewById(R.id.rlError);
         mLoadingLayout = (LinearLayout) mLoadingView.findViewById(R.id.rlLoading);
+        //加载失败点击刷新
+        mErrorLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showLoading();
+                onRefresh();
+            }
+        });
 
         showLoading();
-
     }
 
     /**
@@ -64,7 +74,11 @@ public class BaseActivity extends AppCompatActivity {
 
         if (mLoadingLayout.getVisibility() != View.VISIBLE)
             mLoadingLayout.setVisibility(View.VISIBLE);
-
+        if (mErrorLayout.getVisibility() != View.GONE)
+            mErrorLayout.setVisibility(View.GONE);
+        if (childView.getVisibility() != View.GONE) {
+            childView.setVisibility(View.GONE);
+        }
     }
 
     /**
@@ -75,7 +89,9 @@ public class BaseActivity extends AppCompatActivity {
             mLoadingLayout.setVisibility(View.GONE);
         if (mErrorLayout.getVisibility() != View.GONE)
             mErrorLayout.setVisibility(View.GONE);
-
+        if (childView.getVisibility() != View.VISIBLE) {
+            childView.setVisibility(View.VISIBLE);
+        }
     }
 
     /**
@@ -89,12 +105,8 @@ public class BaseActivity extends AppCompatActivity {
         if (mErrorLayout.getVisibility() != View.VISIBLE)
             mErrorLayout.setVisibility(View.VISIBLE);
 
-        mErrorLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                onRefresh();
-            }
-        });
+        if (childView.getVisibility() != View.GONE) {
+            childView.setVisibility(View.GONE);
+        }
     }
-
 }

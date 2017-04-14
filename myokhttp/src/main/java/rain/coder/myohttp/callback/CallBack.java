@@ -32,7 +32,7 @@ public class CallBack implements Callback {
         OkHttpUtils.handler.post(new Runnable() {
             @Override
             public void run() {
-                mResponseHandler.onErrorHttpResult(0);
+                mResponseHandler.onErrorHttpResult(command, 0);
             }
         });
     }
@@ -55,7 +55,7 @@ public class CallBack implements Callback {
             });
         } else {
             LogUtils.dLog("onFailure", "ErrorCode : " + response.code());
-            mResponseHandler.onErrorHttpResult(response.code());
+            mResponseHandler.onErrorHttpResult(command, response.code());
         }
 
     }

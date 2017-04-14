@@ -7,8 +7,9 @@ import org.json.JSONException;
  * Created by Rain on 17-3-9.
  */
 public interface IResponseHandler {
+    void onProgress(long currentBytes, long totalBytes);
 
-    void onErrorHttpResult(int ErrorCode);
+    void onErrorHttpResult(int command, int ErrorCode);
 
     void onSuccessHttpResult(int command, Object response) throws JSONException;
 }

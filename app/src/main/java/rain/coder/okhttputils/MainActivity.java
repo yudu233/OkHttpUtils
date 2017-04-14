@@ -52,7 +52,12 @@ public class MainActivity extends BaseActivity implements IResponseHandler {
     }
 
     @Override
-    public void onErrorHttpResult(int ErrorCode) {
+    public void onProgress(long currentBytes, long totalBytes) {
+        
+    }
+
+    @Override
+    public void onErrorHttpResult(int command, int ErrorCode) {
         showError();
     }
 
