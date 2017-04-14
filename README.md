@@ -10,8 +10,8 @@ OkHttp3 封装工具类
 ## 1.用法
 - Android Studio的用户：
 在项目根目录build.gradle下添加
-``
 
+``
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
@@ -22,6 +22,7 @@ allprojects {
 ``
 
 在APP目录下的build.gradle中添加依赖
+
 ``
     compile 'com.github.yudu233:OkHttpUtils:1.0.2'
     
