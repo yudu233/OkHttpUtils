@@ -1,5 +1,5 @@
 # OkHttpUtils
-OkHttp3 封装工具类
+[![](https://jitpack.io/v/yudu233/OkHttpUtils.svg)](https://jitpack.io/#yudu233/OkHttpUtils)
 
 ## 对OKHttp3进行二次封装，支持GET、POST登请求方式，支持大文件上传下载，上传下载进度监听等常用功能的实现
 
@@ -24,7 +24,7 @@ allprojects {
 在APP目录下的build.gradle中添加依赖
 
 ```java
-    compile 'com.github.yudu233:OkHttpUtils:1.0.2'
+    compile 'com.github.yudu233:OkHttpUtils:1.0.4'
     
 ```
 
