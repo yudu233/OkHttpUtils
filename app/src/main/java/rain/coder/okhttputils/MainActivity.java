@@ -6,11 +6,10 @@ import android.widget.TextView;
 
 import org.json.JSONException;
 
-import rain.coder.myohttp.OkHttpUtils;
-import rain.coder.myohttp.response.GsonResponseHandler;
-import rain.coder.myohttp.response.IResponseHandler;
+import rain.coder.myokhttp.OkHttpUtils;
+import rain.coder.myokhttp.response.GsonResponseHandler;
 
-public class MainActivity extends BaseActivity implements IResponseHandler {
+public class MainActivity extends BaseActivity {
 
     private TextView mContent;
 
@@ -29,7 +28,8 @@ public class MainActivity extends BaseActivity implements IResponseHandler {
         findViewById(R.id.btnGet).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                loadData();
+                //loadData();
+                OkHttpUtils.get().url("https://www.google.com/").showLoading(true).enqueue(MainActivity.this);
             }
         });
 
@@ -51,15 +51,7 @@ public class MainActivity extends BaseActivity implements IResponseHandler {
 
     }
 
-    @Override
-    public void onProgress(long currentBytes, long totalBytes) {
-        
-    }
 
-    @Override
-    public void onErrorHttpResult(int command, int ErrorCode) {
-        showError();
-    }
 
     @Override
     public void onSuccessHttpResult(int command, Object response) throws JSONException {

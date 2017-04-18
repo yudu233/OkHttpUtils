@@ -10,11 +10,16 @@ import android.view.ViewStub;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import org.json.JSONException;
+
+import rain.coder.myokhttp.response.IResponseHandler;
+
+
 /**
  * Describe :
  * Created by Rain on 17-4-10.
  */
-public class BaseActivity extends AppCompatActivity {
+public class BaseActivity extends AppCompatActivity implements IResponseHandler {
 
     //加载中
     private LinearLayout mLoadingLayout;
@@ -57,7 +62,6 @@ public class BaseActivity extends AppCompatActivity {
             }
         });
 
-        showLoading();
     }
 
     /**
@@ -108,5 +112,25 @@ public class BaseActivity extends AppCompatActivity {
         if (childView.getVisibility() != View.GONE) {
             childView.setVisibility(View.GONE);
         }
+    }
+
+    @Override
+    public void onStart(boolean showLoading) {
+        showLoading();
+    }
+
+    @Override
+    public void onProgress(long currentBytes, long totalBytes) {
+
+    }
+
+    @Override
+    public void onErrorHttpResult(int command, int ErrorCode) {
+        showError();
+    }
+
+    @Override
+    public void onSuccessHttpResult(int command, Object response) throws JSONException {
+
     }
 }

@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/home/yudu/Company/封装网络请求/OkHttpUtils/myokhttp/build/intermediates/res/merged/androidTest/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/home/yudu/Company/封装网络请求/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/androidTest/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout-v16/notification_template_custom_big.xml"
     }
 ]

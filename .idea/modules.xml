@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OkHttpUtils.iml" filepath="$PROJECT_DIR$/OkHttpUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myokhttp/myohttp.iml" filepath="$PROJECT_DIR$/myokhttp/myohttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/myokhttp/myokhttp.iml" filepath="$PROJECT_DIR$/myokhttp/myokhttp.iml" />
     </modules>
   </component>

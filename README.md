@@ -32,7 +32,7 @@ allprojects {
 - [x] GET请求
 - [x] POST请求
 - [ ] PATCH请求
-- [ ] PUT请求
+- [x] PUT请求
 - [ ] DELETE请求
 - [x] 单/多文件上传(可携带参数)
 - [x] 大文件上传和上传进度监听回调
