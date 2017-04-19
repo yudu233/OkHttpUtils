@@ -53,6 +53,8 @@ public class BaseActivity extends AppCompatActivity implements IResponseHandler 
 
         mErrorLayout = (RelativeLayout) mErrorView.findViewById(R.id.rlError);
         mLoadingLayout = (LinearLayout) mLoadingView.findViewById(R.id.rlLoading);
+        mErrorLayout.setVisibility(View.GONE);
+        mLoadingLayout.setVisibility(View.GONE);
         //加载失败点击刷新
         mErrorLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,7 +118,8 @@ public class BaseActivity extends AppCompatActivity implements IResponseHandler 
 
     @Override
     public void onStart(boolean showLoading) {
-        showLoading();
+        if (showLoading == true)
+            showLoading();
     }
 
     @Override
