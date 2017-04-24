@@ -6,7 +6,6 @@ import java.util.Map;
 import okhttp3.Headers;
 import okhttp3.Request;
 import rain.coder.myokhttp.OkHttpUtils;
-import rain.coder.myokhttp.response.IResponseHandler;
 
 /**
  * Describe : OkHttp请求构造基类
@@ -26,7 +25,7 @@ public abstract class OkHttpRequestBuilder<T extends OkHttpRequestBuilder> {
 
     protected OkHttpUtils myOkHttp;
 
-    abstract void enqueue(final IResponseHandler response);
+    abstract void enqueue(final OkHttpUtils.RequestListener response);
 
     public OkHttpRequestBuilder(OkHttpUtils myOkHttp) {
         this.myOkHttp = myOkHttp;

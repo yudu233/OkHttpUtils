@@ -18,15 +18,15 @@ import rain.coder.myokhttp.utils.LogUtils;
  * Describe :Gson类型的回调接口
  * Created by Rain on 17-3-13.
  */
-public class GsonResponseHandler implements IResponseHandler {
+public class GsonResponseHandler implements OkHttpUtils.RequestListener {
 
     private Type mType;
     private Class<?> tClass;
 
-    private IResponseHandler mGsonResponse;
+    private OkHttpUtils.RequestListener mGsonResponse;
 
-    public GsonResponseHandler(IResponseHandler handler) {
-        this.mGsonResponse = handler;
+    public GsonResponseHandler(OkHttpUtils.RequestListener requestListener) {
+        this.mGsonResponse = requestListener;
 
         //反射获取带泛型的class
         Type superclass = getClass().getGenericSuperclass();
@@ -38,8 +38,8 @@ public class GsonResponseHandler implements IResponseHandler {
         mType = $Gson$Types.canonicalize(parameterizedType.getActualTypeArguments()[0]);
     }
 
-    public GsonResponseHandler(IResponseHandler handler, Class<?> clazz) {
-        this.mGsonResponse = handler;
+    public GsonResponseHandler(OkHttpUtils.RequestListener requestListener, Class<?> clazz) {
+        this.mGsonResponse = requestListener;
         this.tClass = clazz;
     }
 

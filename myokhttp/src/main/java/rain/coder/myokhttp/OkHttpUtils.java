@@ -3,6 +3,8 @@ package rain.coder.myokhttp;
 import android.os.Handler;
 import android.os.Looper;
 
+import org.json.JSONException;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import rain.coder.myokhttp.builder.GetBuilder;
@@ -60,5 +62,14 @@ public class OkHttpUtils {
         return new PutBuilder(getInstance());
     }
 
+    public interface RequestListener{
 
+        void onStart(boolean showLoading);
+
+        void onProgress(long currentBytes, long totalBytes);
+
+        void onErrorHttpResult(int command, int ErrorCode);
+
+        void onSuccessHttpResult(int command, Object response) throws JSONException;
+    }
 }

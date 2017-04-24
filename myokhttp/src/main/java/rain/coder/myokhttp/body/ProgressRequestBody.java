@@ -9,7 +9,7 @@ import okio.BufferedSink;
 import okio.ForwardingSink;
 import okio.Okio;
 import okio.Sink;
-import rain.coder.myokhttp.response.IResponseHandler;
+import rain.coder.myokhttp.OkHttpUtils;
 
 /**
  * 重写request body 设置上传进度监听
@@ -17,12 +17,12 @@ import rain.coder.myokhttp.response.IResponseHandler;
  */
 public class ProgressRequestBody extends RequestBody {
 
-    private IResponseHandler mResponseHandler;      //回调监听
+    private OkHttpUtils.RequestListener mRequestListener;      //回调监听
     private RequestBody mRequestBody;
     private BufferedSink mBufferedSink;
 
-    public ProgressRequestBody(RequestBody requestBody, IResponseHandler responseHandler) {
-        this.mResponseHandler = responseHandler;
+    public ProgressRequestBody(RequestBody requestBody, OkHttpUtils.RequestListener requestListener) {
+        this.mRequestListener = requestListener;
         this.mRequestBody = requestBody;
     }
 

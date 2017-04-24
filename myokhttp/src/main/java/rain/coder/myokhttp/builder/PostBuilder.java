@@ -7,7 +7,6 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import rain.coder.myokhttp.OkHttpUtils;
 import rain.coder.myokhttp.callback.CallBack;
-import rain.coder.myokhttp.response.IResponseHandler;
 
 /**
  * okHttp PostBuilder
@@ -27,7 +26,7 @@ public class PostBuilder extends OkHttpRequestBuilder<PostBuilder> {
     }
 
     @Override
-    public void enqueue(IResponseHandler responseHandler) {
+    public void enqueue(OkHttpUtils.RequestListener responseHandler) {
         if (url == null || url.length() == 0)
             throw new IllegalArgumentException("url can not be null !");
 

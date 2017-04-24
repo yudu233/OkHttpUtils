@@ -12,14 +12,14 @@ import android.widget.RelativeLayout;
 
 import org.json.JSONException;
 
-import rain.coder.myokhttp.response.IResponseHandler;
+import rain.coder.myokhttp.OkHttpUtils;
 
 
 /**
  * Describe :
  * Created by Rain on 17-4-10.
  */
-public class BaseActivity extends AppCompatActivity implements IResponseHandler {
+public class BaseActivity extends AppCompatActivity implements OkHttpUtils.RequestListener{
 
     //加载中
     private LinearLayout mLoadingLayout;
@@ -116,7 +116,7 @@ public class BaseActivity extends AppCompatActivity implements IResponseHandler 
 
     @Override
     public void onStart(boolean showLoading) {
-        showLoading();
+
     }
 
     @Override
@@ -126,7 +126,7 @@ public class BaseActivity extends AppCompatActivity implements IResponseHandler 
 
     @Override
     public void onErrorHttpResult(int command, int ErrorCode) {
-        showError();
+
     }
 
     @Override

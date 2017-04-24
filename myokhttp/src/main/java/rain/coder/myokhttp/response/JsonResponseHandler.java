@@ -14,11 +14,11 @@ import rain.coder.myokhttp.utils.LogUtils;
  * Describe : JSON类型的回调接口
  * Created by Rain on 17-3-13.
  */
-public class JsonResponseHandler implements IResponseHandler {
+public class JsonResponseHandler implements OkHttpUtils.RequestListener {
 
-    private IResponseHandler jsonResponse;
+    private OkHttpUtils.RequestListener jsonResponse;
 
-    public JsonResponseHandler(IResponseHandler jsonResponse) {
+    public JsonResponseHandler(OkHttpUtils.RequestListener jsonResponse) {
         this.jsonResponse = jsonResponse;
     }
 
