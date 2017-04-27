@@ -28,7 +28,7 @@ public class BaseActivity extends AppCompatActivity implements OkHttpUtils.Reque
     /**
      * 泛型简化findViewById
      *
-     * @param resIde
+     * @param resId
      * @param <T>
      * @return
      */
