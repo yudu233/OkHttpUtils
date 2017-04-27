@@ -7,8 +7,6 @@ import android.view.View;
 
 import org.json.JSONException;
 
-import java.io.IOException;
-
 import rain.coder.myokhttp.OkHttpUtils;
 
 /**
@@ -85,7 +83,7 @@ public class BaseActivity extends AppCompatActivity implements OkHttpUtils.Reque
     }
 
     @Override
-    public void onErrorHttpResult(int command, int ErrorCode, Object response) throws IOException {
+    public void onErrorHttpResult(int command, int ErrorCode, Object response) throws JSONException {
         showError();
     }
 

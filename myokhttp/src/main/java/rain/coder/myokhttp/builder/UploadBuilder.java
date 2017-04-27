@@ -1,7 +1,8 @@
 package rain.coder.myokhttp.builder;
 
+import org.json.JSONException;
+
 import java.io.File;
-import java.io.IOException;
 import java.net.FileNameMap;
 import java.net.URLConnection;
 import java.util.ArrayList;
@@ -105,7 +106,7 @@ public class UploadBuilder extends OkHttpRequestBuilder<UploadBuilder> {
             LogUtils.eLog("Upload enqueue error:" + e.getMessage());
             try {
                 requestListener.onErrorHttpResult(command, 0, null);
-            } catch (IOException e1) {
+            } catch (JSONException e1) {
                 e1.printStackTrace();
             }
         }

@@ -35,7 +35,7 @@ public class CallBack implements Callback {
             public void run() {
                 try {
                     requestListener.onErrorHttpResult(command, 0, null);
-                } catch (IOException e1) {
+                } catch (JSONException e1) {
                     e1.printStackTrace();
                 }
             }
@@ -63,7 +63,7 @@ public class CallBack implements Callback {
         } else {
             try {
                 requestListener.onErrorHttpResult(command, response.code(), response);
-            } catch (IOException e) {
+            } catch (JSONException e) {
                 e.printStackTrace();
             }
         }

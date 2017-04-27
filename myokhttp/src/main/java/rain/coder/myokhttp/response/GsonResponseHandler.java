@@ -69,7 +69,7 @@ public class GsonResponseHandler implements OkHttpUtils.RequestListener {
             public void run() {
                 try {
                     mGsonResponse.onErrorHttpResult(command, ErrorCode, response);
-                } catch (IOException e) {
+                } catch (JSONException e) {
                     e.printStackTrace();
                 }
             }
