@@ -33,7 +33,11 @@ public class CallBack implements Callback {
         OkHttpUtils.handler.post(new Runnable() {
             @Override
             public void run() {
-                requestListener.onErrorHttpResult(command, 0, null);
+                try {
+                    requestListener.onErrorHttpResult(command, 0, null);
+                } catch (JSONException e1) {
+                    e1.printStackTrace();
+                }
             }
         });
     }
@@ -57,9 +61,11 @@ public class CallBack implements Callback {
                 }
             });
         } else {
-            requestListener.onErrorHttpResult(command, response.code(), response);
+            try {
+                requestListener.onErrorHttpResult(command, response.code(), response);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
         }
-
-
     }
 }

@@ -51,8 +51,6 @@ public class MainActivity extends BaseActivity {
 
     }
 
-
-
     @Override
     public void onSuccessHttpResult(int command, Object response) throws JSONException {
         if (command == HTTP_GET) {

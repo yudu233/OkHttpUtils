@@ -83,7 +83,7 @@ public class BaseActivity extends AppCompatActivity implements OkHttpUtils.Reque
     }
 
     @Override
-    public void onErrorHttpResult(int command, int ErrorCode, Object response) {
+    public void onErrorHttpResult(int command, int ErrorCode, Object response) throws JSONException {
         showError();
     }
 
