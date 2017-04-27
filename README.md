@@ -24,7 +24,7 @@ allprojects {
 在APP目录下的build.gradle中添加依赖
 
 ```java
-    compile 'com.github.yudu233:OkHttpUtils:1.0.4'
+    compile 'com.github.yudu233:OkHttpUtils:1.0.6'
     
 ```
 
@@ -37,10 +37,11 @@ allprojects {
 - [x] 单/多文件上传(可携带参数)
 - [x] 大文件上传和上传进度监听回调
 - [ ] 大文件下载和下载进度监听回调
-- [ ] 支持可信证书和自签名证书的https的访问,支持双向认证
+- [x] 支持可信证书和自签名证书的https的访问,支持双向认证
 - [ ] 根据Tag取消请求
 - [x] 自定义泛型Callback,支持JSON、GSON、原生数据
 - [x] 考虑实际开发单界面多组请求command区分，减少代码冗余
+- [x] 加载中、加载失败状态显示，可自定义
 
 封装进度是以实际个人开源项目进度而定.
 
