@@ -44,7 +44,7 @@ public class JsonResponseHandler implements OkHttpUtils.RequestListener {
             public void run() {
                 try {
                     jsonResponse.onErrorHttpResult(command, ErrorCode, response);
-                } catch (JSONException e) {
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
             }

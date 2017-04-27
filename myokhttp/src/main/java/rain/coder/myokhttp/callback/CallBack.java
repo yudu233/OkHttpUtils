@@ -35,7 +35,7 @@ public class CallBack implements Callback {
             public void run() {
                 try {
                     requestListener.onErrorHttpResult(command, 0, null);
-                } catch (JSONException e1) {
+                } catch (IOException e1) {
                     e1.printStackTrace();
                 }
             }
@@ -46,7 +46,7 @@ public class CallBack implements Callback {
     public void onResponse(Call call, final Response response) throws IOException {
 
         if (!response.isSuccessful()) {
-            LogUtils.dLog("onFailure! response is not success !", "ErrorCode : " + response.code());
+            LogUtils.dLog("onFailure", " response is not successful ! ErrorCode : " + response.code());
         }
         //请求返回数据
         if (response.isSuccessful()) {
@@ -63,7 +63,7 @@ public class CallBack implements Callback {
         } else {
             try {
                 requestListener.onErrorHttpResult(command, response.code(), response);
-            } catch (JSONException e) {
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }
