@@ -68,7 +68,7 @@ public class OkHttpUtils {
 
         void onProgress(long currentBytes, long totalBytes);
 
-        void onErrorHttpResult(int command, int ErrorCode);
+        void onErrorHttpResult(int command, int ErrorCode, Object response);
 
         void onSuccessHttpResult(int command, Object response) throws JSONException;
     }

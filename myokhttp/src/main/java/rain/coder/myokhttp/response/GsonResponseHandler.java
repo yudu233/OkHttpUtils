@@ -63,11 +63,11 @@ public class GsonResponseHandler implements OkHttpUtils.RequestListener {
     }
 
     @Override
-    public void onErrorHttpResult(final int command, final int ErrorCode) {
+    public void onErrorHttpResult(final int command, final int ErrorCode, final Object response) {
         OkHttpUtils.handler.post(new Runnable() {
             @Override
             public void run() {
-                mGsonResponse.onErrorHttpResult(command, ErrorCode);
+                mGsonResponse.onErrorHttpResult(command, ErrorCode, response);
             }
         });
     }
@@ -85,7 +85,7 @@ public class GsonResponseHandler implements OkHttpUtils.RequestListener {
             OkHttpUtils.handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    onErrorHttpResult(command, ((Response) response).code());
+                    onErrorHttpResult(command, ((Response) response).code(), response);
                 }
             });
             return;
@@ -114,7 +114,7 @@ public class GsonResponseHandler implements OkHttpUtils.RequestListener {
                     OkHttpUtils.handler.post(new Runnable() {
                         @Override
                         public void run() {
-                            onErrorHttpResult(command, ((Response) response).code());
+                            onErrorHttpResult(command, ((Response) response).code(), response);
                         }
                     });
                 }

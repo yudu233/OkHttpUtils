@@ -99,10 +99,10 @@ public class UploadBuilder extends OkHttpRequestBuilder<UploadBuilder> {
 
             Request request = builder.build();
 
-            myOkHttp.getOkHttpClient().newCall(request).enqueue(new CallBack(requestListener, command,showLoading));
+            myOkHttp.getOkHttpClient().newCall(request).enqueue(new CallBack(requestListener, command, showLoading));
         } catch (Exception e) {
             LogUtils.eLog("Upload enqueue error:" + e.getMessage());
-            requestListener.onErrorHttpResult(command, 0);
+            requestListener.onErrorHttpResult(command, 0, null);
         }
     }
 

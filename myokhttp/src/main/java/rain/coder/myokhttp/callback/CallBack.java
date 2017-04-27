@@ -33,7 +33,7 @@ public class CallBack implements Callback {
         OkHttpUtils.handler.post(new Runnable() {
             @Override
             public void run() {
-                requestListener.onErrorHttpResult(command, 0);
+                requestListener.onErrorHttpResult(command, 0, null);
             }
         });
     }
@@ -42,20 +42,23 @@ public class CallBack implements Callback {
     public void onResponse(Call call, final Response response) throws IOException {
 
         if (!response.isSuccessful()) {
-            LogUtils.dLog("onFailure", "ErrorCode : " + response.code());
+            LogUtils.dLog("onFailure! response is not success !", "ErrorCode : " + response.code());
         }
-
         //请求返回数据
-        OkHttpUtils.handler.post(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    requestListener.onSuccessHttpResult(command, response);
-                } catch (JSONException e) {
-                    e.printStackTrace();
+        if (response.isSuccessful()) {
+            OkHttpUtils.handler.post(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        requestListener.onSuccessHttpResult(command, response);
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                 }
-            }
-        });
+            });
+        } else {
+            requestListener.onErrorHttpResult(command, response.code(), response);
+        }
 
 
     }

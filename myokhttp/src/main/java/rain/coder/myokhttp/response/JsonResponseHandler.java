@@ -22,17 +22,6 @@ public class JsonResponseHandler implements OkHttpUtils.RequestListener {
         this.jsonResponse = jsonResponse;
     }
 
-
-    @Override
-    public void onErrorHttpResult(final int command, final int ErrorCode) {
-        OkHttpUtils.handler.post(new Runnable() {
-            @Override
-            public void run() {
-                jsonResponse.onErrorHttpResult(command, ErrorCode);
-            }
-        });
-    }
-
     @Override
     public void onStart(final boolean showLoading) {
         OkHttpUtils.handler.post(new Runnable() {
@@ -49,6 +38,16 @@ public class JsonResponseHandler implements OkHttpUtils.RequestListener {
     }
 
     @Override
+    public void onErrorHttpResult(final int command, final int ErrorCode, final Object response) {
+        OkHttpUtils.handler.post(new Runnable() {
+            @Override
+            public void run() {
+                jsonResponse.onErrorHttpResult(command, ErrorCode, response);
+            }
+        });
+    }
+
+    @Override
     public void onSuccessHttpResult(final int command, final Object response) {
         ResponseBody responseBody = ((Response) response).body();
         String responseBodyStr = "";
@@ -61,7 +60,7 @@ public class JsonResponseHandler implements OkHttpUtils.RequestListener {
             OkHttpUtils.handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    onErrorHttpResult(command, ((Response) response).code());
+                    onErrorHttpResult(command, ((Response) response).code(), response);
                 }
             });
             return;
@@ -92,7 +91,7 @@ public class JsonResponseHandler implements OkHttpUtils.RequestListener {
             OkHttpUtils.handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    onErrorHttpResult(command, ((Response) response).code());
+                    onErrorHttpResult(command, ((Response) response).code(), response);
                 }
             });
         }
