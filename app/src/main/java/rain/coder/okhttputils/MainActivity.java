@@ -55,7 +55,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void onSuccessHttpResult(int command, Object response) throws JSONException {
-        showContent();
         if (command == HTTP_GET) {
             UserInfo userInfo = (UserInfo) response;
             mContent.setText(userInfo.getPerson().get(0).getName());
