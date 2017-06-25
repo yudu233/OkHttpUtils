@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-v16\\values-v16.xml",
+        "outputFile": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v16\\values-v16.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -24,6 +24,7 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-v16\\values-v16.xml",
         "map": [
             {
@@ -49,6 +50,9 @@
     },
     {
         "outputFile": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-v16\\values-v16.xml",
+=======
+        "outputFile": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/values-v16/values-v16.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
         "map": [
             {
                 "to": {
@@ -59,7 +63,31 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v16\\values-v16.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

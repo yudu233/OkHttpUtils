@@ -1,14 +1,23 @@
 [
     {
-        "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-v23\\abc_control_background_material.xml",
-        "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-v23\\abc_control_background_material.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-v23\\abc_control_background_material.xml",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-v23\\abc_control_background_material.xml",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-v23\\abc_control_background_material.xml"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-v23/abc_control_background_material.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-v23\\abc_control_background_material.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     }
 ]

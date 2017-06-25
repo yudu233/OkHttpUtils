@@ -1,13 +1,14 @@
 [
     {
-        "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
@@ -22,5 +23,21 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     }
 ]

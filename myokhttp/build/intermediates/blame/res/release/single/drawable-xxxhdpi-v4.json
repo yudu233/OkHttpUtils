@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
@@ -22,12 +23,25 @@
     {
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -42,12 +56,21 @@
     {
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
@@ -70,12 +93,21 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -86,12 +118,17 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -106,32 +143,47 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -154,36 +206,63 @@
     {
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
@@ -210,16 +289,33 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -230,12 +326,33 @@
     {
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -246,16 +363,21 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -274,12 +396,21 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -298,17 +429,138 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     }
 ]

@@ -5,7 +5,6 @@ import java.util.Map;
 import okhttp3.Request;
 import rain.coder.myokhttp.OkHttpUtils;
 import rain.coder.myokhttp.callback.CallBack;
-import rain.coder.myokhttp.response.IResponseHandler;
 import rain.coder.myokhttp.utils.LogUtils;
 
 /**
@@ -19,7 +18,7 @@ public class GetBuilder extends OkHttpRequestBuilder<GetBuilder> {
     }
 
     @Override
-    public void enqueue(IResponseHandler response) {
+    public void enqueue(OkHttpUtils.RequestListener requestListener) {
         try {
             if (url == null || url.length() == 0)
                 throw new IllegalArgumentException("url can not be null !");
@@ -37,7 +36,7 @@ public class GetBuilder extends OkHttpRequestBuilder<GetBuilder> {
 
             myOkHttp.getOkHttpClient().
                     newCall(request).
-                    enqueue(new CallBack(response, command,showLoading));
+                    enqueue(new CallBack(requestListener, command,showLoading));
         } catch (Exception e) {
             LogUtils.eLog("Get enqueue error:" + e.getMessage());
         }

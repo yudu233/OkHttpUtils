@@ -1,25 +1,35 @@
 [
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_fade_out.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
-        "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_out_top.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_popup_exit.xml"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_popup_exit.xml"
     },
@@ -54,20 +64,34 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_out_top.xml"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_slide_out_top.xml"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_fade_out.xml"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_popup_enter.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
@@ -86,20 +110,42 @@
     {
         "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
         "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_fade_in.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_in_top.xml"
     },
     {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_slide_in_bottom.xml"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     },
     {
-        "merged": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
         "source": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_in_bottom.xml"
     },
@@ -118,5 +164,57 @@
     {
         "merged": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
         "source": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_in_top.xml"
+=======
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\anim\\abc_slide_in_top.xml"
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     }
 ]

@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="G:\AndroidProjrct\Company\网络请求框架\OkHttpUtils\myokhttp\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="G:\AndroidProjrct\Company\网络请求框架\OkHttpUtils\myokhttp\src\release\jniLibs"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="/home/yudu/Company/OkHttpUtils/myokhttp/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/home/yudu/Company/OkHttpUtils/myokhttp/src/release/jniLibs"/></dataSet></merger>
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa

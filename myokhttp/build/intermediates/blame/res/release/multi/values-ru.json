@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ru\\values-ru.xml",
+=======
+        "outputFile": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 165
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +38,11 @@
                     "endOffset": 273
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +61,11 @@
                     "endOffset": 396
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +84,11 @@
                     "endOffset": 498
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +107,11 @@
                     "endOffset": 610
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +130,11 @@
                     "endOffset": 696
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +153,11 @@
                     "endOffset": 801
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +176,11 @@
                     "endOffset": 921
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +199,11 @@
                     "endOffset": 1000
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +222,11 @@
                     "endOffset": 1078
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +245,11 @@
                     "endOffset": 1158
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +268,11 @@
                     "endOffset": 1264
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +291,11 @@
                     "endOffset": 1372
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +314,11 @@
                     "endOffset": 1470
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +337,11 @@
                     "endOffset": 1579
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +360,11 @@
                     "endOffset": 1685
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +383,11 @@
                     "endOffset": 1793
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +406,11 @@
                     "endOffset": 1929
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +429,11 @@
                     "endOffset": 2029
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +452,11 @@
                     "endOffset": 2110
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -391,7 +475,11 @@
                     "endOffset": 2211
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -404,7 +492,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ru\\values-ru.xml",
+=======
+        "outputFile": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
         "map": [
             {
                 "to": {
@@ -415,7 +507,11 @@
                     "endOffset": 165
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -434,7 +530,11 @@
                     "endOffset": 273
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -453,7 +553,11 @@
                     "endOffset": 396
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -472,7 +576,11 @@
                     "endOffset": 498
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -491,7 +599,11 @@
                     "endOffset": 610
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -510,7 +622,11 @@
                     "endOffset": 696
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -529,7 +645,11 @@
                     "endOffset": 801
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -548,7 +668,11 @@
                     "endOffset": 921
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -567,7 +691,11 @@
                     "endOffset": 1000
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -586,7 +714,11 @@
                     "endOffset": 1078
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -605,7 +737,11 @@
                     "endOffset": 1158
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -624,7 +760,11 @@
                     "endOffset": 1264
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -643,7 +783,11 @@
                     "endOffset": 1372
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -662,7 +806,11 @@
                     "endOffset": 1470
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -681,7 +829,11 @@
                     "endOffset": 1579
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -700,7 +852,11 @@
                     "endOffset": 1685
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -719,7 +875,11 @@
                     "endOffset": 1793
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -738,7 +898,11 @@
                     "endOffset": 1929
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -757,7 +921,11 @@
                     "endOffset": 2029
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -776,7 +944,11 @@
                     "endOffset": 2110
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -795,7 +967,11 @@
                     "endOffset": 2211
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -808,7 +984,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ru\\values-ru.xml",
+=======
+        "outputFile": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
         "map": [
             {
                 "to": {
@@ -819,7 +999,11 @@
                     "endOffset": 165
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -838,7 +1022,11 @@
                     "endOffset": 273
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -857,7 +1045,11 @@
                     "endOffset": 396
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -876,7 +1068,11 @@
                     "endOffset": 498
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -895,7 +1091,11 @@
                     "endOffset": 610
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -914,7 +1114,11 @@
                     "endOffset": 696
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -933,7 +1137,11 @@
                     "endOffset": 801
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -952,7 +1160,11 @@
                     "endOffset": 921
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -971,7 +1183,11 @@
                     "endOffset": 1000
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -990,7 +1206,11 @@
                     "endOffset": 1078
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1009,7 +1229,11 @@
                     "endOffset": 1158
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1028,7 +1252,11 @@
                     "endOffset": 1264
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1047,7 +1275,11 @@
                     "endOffset": 1372
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1066,7 +1298,11 @@
                     "endOffset": 1470
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1085,7 +1321,11 @@
                     "endOffset": 1579
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1104,7 +1344,11 @@
                     "endOffset": 1685
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1123,7 +1367,11 @@
                     "endOffset": 1793
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1142,7 +1390,11 @@
                     "endOffset": 1929
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1161,7 +1413,11 @@
                     "endOffset": 2029
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1180,7 +1436,11 @@
                     "endOffset": 2110
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1199,7 +1459,11 @@
                     "endOffset": 2211
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ru\\values-ru.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ru/values-ru.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

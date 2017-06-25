@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ml-rIN\\values-ml-rIN.xml",
         "map": [
             {
@@ -405,6 +406,9 @@
     },
     {
         "outputFile": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+        "outputFile": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
         "map": [
             {
                 "to": {
@@ -415,7 +419,7 @@
                     "endOffset": 169
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -434,7 +438,7 @@
                     "endOffset": 277
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -453,7 +457,7 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -472,7 +476,7 @@
                     "endOffset": 518
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -491,7 +495,7 @@
                     "endOffset": 633
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -510,7 +514,7 @@
                     "endOffset": 726
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -529,7 +533,7 @@
                     "endOffset": 831
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -548,7 +552,7 @@
                     "endOffset": 963
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -567,7 +571,7 @@
                     "endOffset": 1040
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -586,7 +590,7 @@
                     "endOffset": 1116
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -605,7 +609,7 @@
                     "endOffset": 1198
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -624,7 +628,7 @@
                     "endOffset": 1309
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -643,7 +647,7 @@
                     "endOffset": 1415
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -662,7 +666,7 @@
                     "endOffset": 1513
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -681,7 +685,7 @@
                     "endOffset": 1627
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -700,7 +704,7 @@
                     "endOffset": 1727
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -719,7 +723,7 @@
                     "endOffset": 1838
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -738,7 +742,7 @@
                     "endOffset": 1966
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -757,7 +761,7 @@
                     "endOffset": 2067
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -776,7 +780,7 @@
                     "endOffset": 2149
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -795,7 +799,7 @@
                     "endOffset": 2250
                 },
                 "from": {
-                    "file": "G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\home\\yudu\\Company\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -808,7 +812,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+        "outputFile": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\res\\merged\\release\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
         "map": [
             {
                 "to": {
@@ -819,7 +827,11 @@
                     "endOffset": 169
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -838,7 +850,11 @@
                     "endOffset": 277
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -857,7 +873,11 @@
                     "endOffset": 400
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -876,7 +896,11 @@
                     "endOffset": 518
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -895,7 +919,11 @@
                     "endOffset": 633
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -914,7 +942,11 @@
                     "endOffset": 726
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -933,7 +965,11 @@
                     "endOffset": 831
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -952,7 +988,11 @@
                     "endOffset": 963
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -971,7 +1011,11 @@
                     "endOffset": 1040
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -990,7 +1034,11 @@
                     "endOffset": 1116
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1009,7 +1057,11 @@
                     "endOffset": 1198
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1028,7 +1080,11 @@
                     "endOffset": 1309
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1047,7 +1103,11 @@
                     "endOffset": 1415
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1066,7 +1126,11 @@
                     "endOffset": 1513
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1085,7 +1149,11 @@
                     "endOffset": 1627
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1104,7 +1172,11 @@
                     "endOffset": 1727
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1123,7 +1195,11 @@
                     "endOffset": 1838
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1142,7 +1218,11 @@
                     "endOffset": 1966
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1161,7 +1241,11 @@
                     "endOffset": 2067
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1180,7 +1264,11 @@
                     "endOffset": 2149
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1199,7 +1287,415 @@
                     "endOffset": 2250
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "G:\\AndroidProjrct\\Company\\网络请求框架\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+=======
+                    "file": "/home/yudu/Company/OkHttpUtils/G:\\AndroidProjrct\\Company\\http\\OkHttpUtils\\myokhttp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2154,
+                        "endColumn": 100,
+                        "endOffset": 2250
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/res/merged/release/values-ml-rIN/values-ml-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 118,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 118,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 107,
+                    "endOffset": 277
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 107,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endColumn": 122,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 122,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 117,
+                    "endOffset": 518
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 117,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 523,
+                    "endColumn": 114,
+                    "endOffset": 633
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 114,
+                        "endOffset": 633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 638,
+                    "endColumn": 92,
+                    "endOffset": 726
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 638,
+                        "endColumn": 92,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 731,
+                    "endColumn": 104,
+                    "endOffset": 831
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 731,
+                        "endColumn": 104,
+                        "endOffset": 831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 836,
+                    "endColumn": 131,
+                    "endOffset": 963
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 836,
+                        "endColumn": 131,
+                        "endOffset": 963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 968,
+                    "endColumn": 76,
+                    "endOffset": 1040
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 968,
+                        "endColumn": 76,
+                        "endOffset": 1040
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1045,
+                    "endColumn": 75,
+                    "endOffset": 1116
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1045,
+                        "endColumn": 75,
+                        "endOffset": 1116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1121,
+                    "endColumn": 81,
+                    "endOffset": 1198
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1121,
+                        "endColumn": 81,
+                        "endOffset": 1198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1203,
+                    "endColumn": 110,
+                    "endOffset": 1309
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1203,
+                        "endColumn": 110,
+                        "endOffset": 1309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1314,
+                    "endColumn": 105,
+                    "endOffset": 1415
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1314,
+                        "endColumn": 105,
+                        "endOffset": 1415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1420,
+                    "endColumn": 97,
+                    "endOffset": 1513
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1420,
+                        "endColumn": 97,
+                        "endOffset": 1513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1518,
+                    "endColumn": 113,
+                    "endOffset": 1627
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1518,
+                        "endColumn": 113,
+                        "endOffset": 1627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1632,
+                    "endColumn": 99,
+                    "endOffset": 1727
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1632,
+                        "endColumn": 99,
+                        "endOffset": 1727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1732,
+                    "endColumn": 110,
+                    "endOffset": 1838
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1732,
+                        "endColumn": 110,
+                        "endOffset": 1838
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1843,
+                    "endColumn": 127,
+                    "endOffset": 1966
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1843,
+                        "endColumn": 127,
+                        "endOffset": 1966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1971,
+                    "endColumn": 100,
+                    "endOffset": 2067
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1971,
+                        "endColumn": 100,
+                        "endOffset": 2067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2072,
+                    "endColumn": 81,
+                    "endOffset": 2149
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2072,
+                        "endColumn": 81,
+                        "endOffset": 2149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2154,
+                    "endColumn": 100,
+                    "endOffset": 2250
+                },
+                "from": {
+                    "file": "/home/yudu/Company/OkHttpUtils/myokhttp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-ml-rIN/values-ml-rIN.xml",
+>>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

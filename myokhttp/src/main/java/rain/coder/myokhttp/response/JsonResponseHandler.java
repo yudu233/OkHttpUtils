@@ -14,23 +14,12 @@ import rain.coder.myokhttp.utils.LogUtils;
  * Describe : JSON类型的回调接口
  * Created by Rain on 17-3-13.
  */
-public class JsonResponseHandler implements IResponseHandler {
+public class JsonResponseHandler implements OkHttpUtils.RequestListener {
 
-    private IResponseHandler jsonResponse;
+    private OkHttpUtils.RequestListener jsonResponse;
 
-    public JsonResponseHandler(IResponseHandler jsonResponse) {
+    public JsonResponseHandler(OkHttpUtils.RequestListener jsonResponse) {
         this.jsonResponse = jsonResponse;
-    }
-
-
-    @Override
-    public void onErrorHttpResult(final int command, final int ErrorCode) {
-        OkHttpUtils.handler.post(new Runnable() {
-            @Override
-            public void run() {
-                jsonResponse.onErrorHttpResult(command, ErrorCode);
-            }
-        });
     }
 
     @Override
@@ -49,6 +38,20 @@ public class JsonResponseHandler implements IResponseHandler {
     }
 
     @Override
+    public void onErrorHttpResult(final int command, final int ErrorCode, final Object response) {
+        OkHttpUtils.handler.post(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    jsonResponse.onErrorHttpResult(command, ErrorCode, response);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+
+    @Override
     public void onSuccessHttpResult(final int command, final Object response) {
         ResponseBody responseBody = ((Response) response).body();
         String responseBodyStr = "";
@@ -61,7 +64,7 @@ public class JsonResponseHandler implements IResponseHandler {
             OkHttpUtils.handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    onErrorHttpResult(command, ((Response) response).code());
+                    onErrorHttpResult(command, ((Response) response).code(), response);
                 }
             });
             return;
@@ -92,7 +95,7 @@ public class JsonResponseHandler implements IResponseHandler {
             OkHttpUtils.handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    onErrorHttpResult(command, ((Response) response).code());
+                    onErrorHttpResult(command, ((Response) response).code(), response);
                 }
             });
         }

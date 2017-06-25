@@ -1,5 +1,7 @@
 package rain.coder.myokhttp.builder;
 
+import org.json.JSONException;
+
 import java.io.File;
 import java.net.FileNameMap;
 import java.net.URLConnection;
@@ -16,7 +18,6 @@ import okhttp3.RequestBody;
 import rain.coder.myokhttp.OkHttpUtils;
 import rain.coder.myokhttp.body.ProgressRequestBody;
 import rain.coder.myokhttp.callback.CallBack;
-import rain.coder.myokhttp.response.IResponseHandler;
 import rain.coder.myokhttp.utils.LogUtils;
 
 /**
@@ -78,7 +79,7 @@ public class UploadBuilder extends OkHttpRequestBuilder<UploadBuilder> {
         return this;
     }
 
-    public void enqueue(IResponseHandler responseHandler) {
+    public void enqueue(OkHttpUtils.RequestListener requestListener) {
         try {
             if (url == null || url.length() == 0) {
                 throw new IllegalArgumentException("url can not be null !");
@@ -96,14 +97,18 @@ public class UploadBuilder extends OkHttpRequestBuilder<UploadBuilder> {
             appendFiles(multipartBuilder, mFiles);
             appendParts(multipartBuilder, mExtraParts);
 
-            builder.post(new ProgressRequestBody(multipartBuilder.build(), responseHandler));
+            builder.post(new ProgressRequestBody(multipartBuilder.build(), requestListener));
 
             Request request = builder.build();
 
-            myOkHttp.getOkHttpClient().newCall(request).enqueue(new CallBack(responseHandler, command,showLoading));
+            myOkHttp.getOkHttpClient().newCall(request).enqueue(new CallBack(requestListener, command, showLoading));
         } catch (Exception e) {
             LogUtils.eLog("Upload enqueue error:" + e.getMessage());
-            responseHandler.onErrorHttpResult(command, 0);
+            try {
+                requestListener.onErrorHttpResult(command, 0, null);
+            } catch (JSONException e1) {
+                e1.printStackTrace();
+            }
         }
     }
 

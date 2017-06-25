@@ -1,125 +1,80 @@
 package rain.coder.okhttputils;
 
 import android.os.Bundle;
-import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.ViewStub;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 import org.json.JSONException;
 
-import rain.coder.myokhttp.response.IResponseHandler;
-
+import rain.coder.myokhttp.OkHttpUtils;
 
 /**
- * Describe :
+ * Describe :Activity基类
  * Created by Rain on 17-4-10.
  */
-public class BaseActivity extends AppCompatActivity implements IResponseHandler {
+public class BaseActivity extends AppCompatActivity implements OkHttpUtils.RequestListener {
 
-    //加载中
-    private LinearLayout mLoadingLayout;
-    //加载失败
-    private RelativeLayout mErrorLayout;
-    //内容布局
-    private View childView;
+    private LoadingDialog loadingDialog;
+    private boolean isShowLoading;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
-    public void setContentView(@LayoutRes int layoutResID) {
-        View baseView = getLayoutInflater().inflate(R.layout.activity_base, null, false);
-        childView = getLayoutInflater().inflate(layoutResID, null, false);
-
-        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-        childView.getRootView().setLayoutParams(params);
-        RelativeLayout mContainer = (RelativeLayout) baseView.getRootView().findViewById(R.id.rllContainer);
-        mContainer.addView(childView.getRootView());
-        getWindow().setContentView(baseView.getRootView());
-
-        childView.getRootView().setVisibility(View.GONE);
-
-        ViewStub mLoading = (ViewStub) baseView.findViewById(R.id.vsLoading);
-        ViewStub mError = (ViewStub) baseView.findViewById(R.id.vsError);
-
-        View mErrorView = mError.inflate();
-        View mLoadingView = mLoading.inflate();
-
-        mErrorLayout = (RelativeLayout) mErrorView.findViewById(R.id.rlError);
-        mLoadingLayout = (LinearLayout) mLoadingView.findViewById(R.id.rlLoading);
-        mErrorLayout.setVisibility(View.GONE);
-        mLoadingLayout.setVisibility(View.GONE);
-        //加载失败点击刷新
-        mErrorLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                showLoading();
-                onRefresh();
-            }
-        });
-
+    /**
+     * 泛型简化findViewById
+     *
+     * @param resId
+     * @param <T>
+     * @return
+     */
+    public <T extends View> T getView(int resId) {
+        return (T) super.findViewById(resId);
     }
 
     /**
-     * 点击刷新
+     * 加载失败后点击后的操作
      */
     protected void onRefresh() {
 
     }
 
     /**
-     * 加载中动画展示
+     * 加载完成的状态
      */
-    private void showLoading() {
-
-        if (mLoadingLayout.getVisibility() != View.VISIBLE)
-            mLoadingLayout.setVisibility(View.VISIBLE);
-        if (mErrorLayout.getVisibility() != View.GONE)
-            mErrorLayout.setVisibility(View.GONE);
-        if (childView.getVisibility() != View.GONE) {
-            childView.setVisibility(View.GONE);
-        }
+    protected void showContentView() {
+        if (isShowLoading) loadingDialog.dismiss();
     }
 
     /**
-     * 加载完毕展示内容
-     */
-    protected void showContent() {
-        if (mLoadingLayout.getVisibility() != View.GONE)
-            mLoadingLayout.setVisibility(View.GONE);
-        if (mErrorLayout.getVisibility() != View.GONE)
-            mErrorLayout.setVisibility(View.GONE);
-        if (childView.getVisibility() != View.VISIBLE) {
-            childView.setVisibility(View.VISIBLE);
-        }
-    }
-
-    /**
-     * 加载失败展示
+     * 加载失败点击重新加载的状态
      */
     protected void showError() {
-
-        if (mLoadingLayout.getVisibility() != View.GONE)
-            mLoadingLayout.setVisibility(View.GONE);
-
-        if (mErrorLayout.getVisibility() != View.VISIBLE)
-            mErrorLayout.setVisibility(View.VISIBLE);
-
-        if (childView.getVisibility() != View.GONE) {
-            childView.setVisibility(View.GONE);
-        }
+        if (isShowLoading) loadingDialog.dismiss();
+/*        SnackBarUtils.CustomizeSnackBar(backButton, "服务器连接异常",
+                getResources().getColor(R.color.white),
+                getResources().getColor(R.color.colorTextBg),
+                getResources().getColor(R.color.white))
+                .setAction("检查网络",
+                        new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                //打开网络设置
+                                UtilsHelper.setNetworkMethod(BaseActivity.this);
+                            }
+                        }
+                ).show();*/
     }
 
     @Override
     public void onStart(boolean showLoading) {
-        if (showLoading == true)
-            showLoading();
+        isShowLoading = showLoading;
+        if (showLoading == true) {
+            loadingDialog = new LoadingDialog(this);
+            loadingDialog.showLoading();
+        }
     }
 
     @Override
@@ -128,7 +83,7 @@ public class BaseActivity extends AppCompatActivity implements IResponseHandler 
     }
 
     @Override
-    public void onErrorHttpResult(int command, int ErrorCode) {
+    public void onErrorHttpResult(int command, int ErrorCode, Object response) throws JSONException {
         showError();
     }
 
