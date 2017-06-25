@@ -3,8 +3,6 @@ package rain.coder.myokhttp.download_mgr;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.tsy.sdk.myokhttp.MyOkHttp;
-
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -12,6 +10,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Locale;
+
+import rain.coder.myokhttp.OkHttpUtils;
 
 /**
  * 下载管理
@@ -23,7 +23,7 @@ public abstract class AbstractDownloadMgr {
     protected final String TAG = "DownloadMgr";
     protected boolean DEBUG = false;        //调试Log开关
 
-    private MyOkHttp mMyOkHttp;
+    private OkHttpUtils mMyOkHttp;
 
     private int mMaxDownloadIngNum;        //最大同时下载数量
     private int mCurDownloadIngNum;         //当前同时下载数量
@@ -55,14 +55,14 @@ public abstract class AbstractDownloadMgr {
         mDownloadTaskListener = new DownloadTaskListener() {
             @Override
             public void onStart(String taskId, long completeBytes, long totalBytes) {
-                if(DEBUG) {
+                if (DEBUG) {
                     Log.i(TAG, "onStart " + taskId + " startCompleteBytes=" + completeBytes + " totalBytes=" + totalBytes);
                 }
 
                 onTaskStart(taskId);
 
-                for(DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
-                    if(downloadTaskListener != null) {
+                for (DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
+                    if (downloadTaskListener != null) {
                         downloadTaskListener.onStart(taskId, completeBytes, totalBytes);
                     }
                 }
@@ -70,12 +70,12 @@ public abstract class AbstractDownloadMgr {
 
             @Override
             public void onProgress(String taskId, long currentBytes, long totalBytes) {
-                if(DEBUG) {
+                if (DEBUG) {
                     Log.i(TAG, "onProgress " + taskId + " currentBytes=" + currentBytes + " totalBytes=" + totalBytes);
                 }
 
-                if(mDownloadTaskPool.get(taskId).getNextSaveBytes() > mSaveProgressBytes) {     //每mSaveProgressBytes保存一次进度
-                    if(DEBUG) {
+                if (mDownloadTaskPool.get(taskId).getNextSaveBytes() > mSaveProgressBytes) {     //每mSaveProgressBytes保存一次进度
+                    if (DEBUG) {
                         Log.i(TAG, "saveProgress");
                     }
 
@@ -83,8 +83,8 @@ public abstract class AbstractDownloadMgr {
                     saveProgress(taskId, currentBytes, totalBytes);
                 }
 
-                for(DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
-                    if(downloadTaskListener != null) {
+                for (DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
+                    if (downloadTaskListener != null) {
                         downloadTaskListener.onProgress(taskId, currentBytes, totalBytes);
                     }
                 }
@@ -92,7 +92,7 @@ public abstract class AbstractDownloadMgr {
 
             @Override
             public void onPause(String taskId, long currentBytes, long totalBytes) {
-                if(DEBUG) {
+                if (DEBUG) {
                     Log.i(TAG, "onPause " + taskId + " currentBytes=" + currentBytes + " totalBytes=" + totalBytes);
                     Log.i(TAG, "saveProgress");
                 }
@@ -101,20 +101,20 @@ public abstract class AbstractDownloadMgr {
 
                 onTaskPause(taskId);
 
-                for(DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
-                    if(downloadTaskListener != null) {
+                for (DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
+                    if (downloadTaskListener != null) {
                         downloadTaskListener.onPause(taskId, currentBytes, totalBytes);
                     }
                 }
 
                 //自动开始下一个等待中的任务
-                mCurDownloadIngNum --;
+                mCurDownloadIngNum--;
                 startNextTask();
             }
 
             @Override
             public void onFinish(String taskId, File file) {
-                if(DEBUG) {
+                if (DEBUG) {
                     Log.i(TAG, "onFinish " + taskId + " filePath=" + file.getAbsolutePath());
                 }
 
@@ -126,33 +126,33 @@ public abstract class AbstractDownloadMgr {
 
                 onTaskFinish(taskId);
 
-                for(DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
-                    if(downloadTaskListener != null) {
+                for (DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
+                    if (downloadTaskListener != null) {
                         downloadTaskListener.onFinish(taskId, file);
                     }
                 }
 
                 //自动开始下一个等待中的任务
-                mCurDownloadIngNum --;
+                mCurDownloadIngNum--;
                 startNextTask();
             }
 
             @Override
             public void onFailure(String taskId, String error_msg) {
-                if(DEBUG) {
+                if (DEBUG) {
                     Log.w(TAG, "onFailure " + taskId + " " + error_msg);
                 }
 
                 onTaskFail(taskId);
 
-                for(DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
-                    if(downloadTaskListener != null) {
+                for (DownloadTaskListener downloadTaskListener : mDownloadTaskListenerList) {
+                    if (downloadTaskListener != null) {
                         downloadTaskListener.onFailure(taskId, error_msg);
                     }
                 }
 
                 //自动开始下一个等待中的任务
-                mCurDownloadIngNum --;
+                mCurDownloadIngNum--;
                 startNextTask();
             }
         };
@@ -165,26 +165,30 @@ public abstract class AbstractDownloadMgr {
 
     /**
      * 保存进度
-     * @param taskId taskId
+     *
+     * @param taskId       taskId
      * @param currentBytes 已经下载的bytes
-     * @param totalBytes 总共bytes
+     * @param totalBytes   总共bytes
      */
     protected abstract void saveProgress(String taskId, long currentBytes, long totalBytes);
 
     /**
      * 下载任务开始
+     *
      * @param taskId task id
      */
     protected abstract void onTaskStart(String taskId);
 
     /**
      * 下载任务暂停
+     *
      * @param taskId task id
      */
     protected abstract void onTaskPause(String taskId);
 
     /**
      * 下载任务完成
+     *
      * @param taskId task id
      */
     protected abstract void onTaskFinish(String taskId);
@@ -192,24 +196,26 @@ public abstract class AbstractDownloadMgr {
 
     /**
      * 下载任务失败
+     *
      * @param taskId task id
      */
     protected abstract void onTaskFail(String taskId);
 
     /**
      * 添加下载任务
+     *
      * @param task Task
      */
     public DownloadTask addTask(Task task) {
-        if(DEBUG) {
+        if (DEBUG) {
             Log.i(TAG, "addTask " + task.toString());
         }
 
         //检查Task参数
         checkTaskArgument(task);
 
-        if(mDownloadTaskPool.containsKey(task.getTaskId())) {       //task已经加过
-            if(DEBUG) {
+        if (mDownloadTaskPool.containsKey(task.getTaskId())) {       //task已经加过
+            if (DEBUG) {
                 Log.w(TAG, "addTask contain " + task.getTaskId());
             }
             return null;
@@ -226,9 +232,9 @@ public abstract class AbstractDownloadMgr {
         downloadTask.setCompleteBytes(task.getCompleteBytes());
         downloadTask.setDownloadTaskListener(mDownloadTaskListener);
 
-        if(task.getDefaultStatus() == DEFAULT_TASK_STATUS_START) {
+        if (task.getDefaultStatus() == DEFAULT_TASK_STATUS_START) {
             startTask(task.getTaskId());
-        } else if(task.getDefaultStatus() == DEFAULT_TASK_STATUS_PAUSE) {
+        } else if (task.getDefaultStatus() == DEFAULT_TASK_STATUS_PAUSE) {
             pauseTask(task.getTaskId());
         }
 
@@ -237,21 +243,22 @@ public abstract class AbstractDownloadMgr {
 
     /**
      * 开始任务
+     *
      * @param taskId task id
      */
     public void startTask(String taskId) {
         DownloadTask downloadTask = mDownloadTaskPool.get(taskId);
-        if(downloadTask == null) {
+        if (downloadTask == null) {
             return;
         }
 
-        if(DEBUG) {
+        if (DEBUG) {
             Log.i(TAG, "startTask " + taskId);
         }
-        
-        if(mCurDownloadIngNum < mMaxDownloadIngNum) {
-            if(downloadTask.doStart()) {       //初始状态开始
-                mCurDownloadIngNum ++;
+
+        if (mCurDownloadIngNum < mMaxDownloadIngNum) {
+            if (downloadTask.doStart()) {       //初始状态开始
+                mCurDownloadIngNum++;
             }
         } else {
             downloadTask.setStatus(DownloadStatus.STATUS_WAIT);   //超过总下载数量则设置为等待
@@ -262,26 +269,27 @@ public abstract class AbstractDownloadMgr {
      * 开始所有任务
      */
     public void startAllTask() {
-        if(DEBUG) {
+        if (DEBUG) {
             Log.i(TAG, "startAllTask");
         }
 
-        for(int i = 0; i < mDownloadTaskQuene.size(); i ++) {
+        for (int i = 0; i < mDownloadTaskQuene.size(); i++) {
             startTask(mDownloadTaskQuene.get(i));
         }
     }
 
     /**
      * 暂停任务
+     *
      * @param taskId task id
      */
     public void pauseTask(String taskId) {
         DownloadTask downloadTask = mDownloadTaskPool.get(taskId);
-        if(downloadTask == null) {
+        if (downloadTask == null) {
             return;
         }
 
-        if(DEBUG) {
+        if (DEBUG) {
             Log.i(TAG, "pauseTask " + taskId);
         }
 
@@ -292,17 +300,18 @@ public abstract class AbstractDownloadMgr {
      * 暂停所有任务
      */
     public void pauseAllTask() {
-        if(DEBUG) {
+        if (DEBUG) {
             Log.i(TAG, "startAllTask");
         }
 
-        for(int i = 0; i < mDownloadTaskQuene.size(); i ++) {
+        for (int i = 0; i < mDownloadTaskQuene.size(); i++) {
             pauseTask(mDownloadTaskQuene.get(i));
         }
     }
 
     /**
      * 删除任务
+     *
      * @param taskId 任务id
      */
     public void deleteTask(String taskId) {
@@ -317,14 +326,14 @@ public abstract class AbstractDownloadMgr {
      * 遍历开始查找下一个任务
      */
     private void startNextTask() {
-        if(mCurDownloadIngNum >= mMaxDownloadIngNum) {
+        if (mCurDownloadIngNum >= mMaxDownloadIngNum) {
             return;
         }
 
-        for(int i = 0; i < mDownloadTaskQuene.size(); i ++) {
+        for (int i = 0; i < mDownloadTaskQuene.size(); i++) {
             DownloadTask downloadTask = mDownloadTaskPool.get(mDownloadTaskQuene.get(i));
-            if(downloadTask.getStatus() == DownloadStatus.STATUS_WAIT) {
-                if(DEBUG) {
+            if (downloadTask.getStatus() == DownloadStatus.STATUS_WAIT) {
+                if (DEBUG) {
                     Log.i(TAG, "startNextTask " + downloadTask.getTaskId());
                 }
                 downloadTask.doStart();
@@ -334,6 +343,7 @@ public abstract class AbstractDownloadMgr {
 
     /**
      * 添加下载监听
+     *
      * @param downloadTaskListener
      */
     public void addListener(DownloadTaskListener downloadTaskListener) {
@@ -342,6 +352,7 @@ public abstract class AbstractDownloadMgr {
 
     /**
      * 移除下载监听
+     *
      * @param downloadTaskListener
      */
     public void removeListener(DownloadTaskListener downloadTaskListener) {
@@ -350,16 +361,18 @@ public abstract class AbstractDownloadMgr {
 
     /**
      * 生成taskId yyyyMMddHHmmss+3位随机数字
+     *
      * @return
      */
     public String genTaskId() {
-        SimpleDateFormat dateformat=new SimpleDateFormat("yyyyMMddHHmmss", Locale.CHINA);
+        SimpleDateFormat dateformat = new SimpleDateFormat("yyyyMMddHHmmss", Locale.CHINA);
         String datetime = dateformat.format(new Date());
         return datetime + getRandNum() + getRandNum() + getRandNum();
     }
 
     /**
      * 获取当前任务的下载任务信息
+     *
      * @param taskId 任务id
      * @return
      */
@@ -380,23 +393,23 @@ public abstract class AbstractDownloadMgr {
 
     //检查Task参数
     private void checkTaskArgument(Task task) {
-        if(task.getTaskId().length() == 0) {
+        if (task.getTaskId().length() == 0) {
             throw new IllegalArgumentException("taskId为空");
         }
 
-        if(task.getUrl().length() == 0) {
+        if (task.getUrl().length() == 0) {
             throw new IllegalArgumentException("url为空");
         }
 
-        if(task.getFilePath().length() == 0) {
+        if (task.getFilePath().length() == 0) {
             throw new IllegalArgumentException("filePath为空");
         }
 
-        if(task.getCompleteBytes() < 0) {
+        if (task.getCompleteBytes() < 0) {
             throw new IllegalArgumentException("非法completeBytes");
         }
 
-        if(task.getDefaultStatus() != DEFAULT_TASK_STATUS_START
+        if (task.getDefaultStatus() != DEFAULT_TASK_STATUS_START
                 && task.getDefaultStatus() != DEFAULT_TASK_STATUS_PAUSE) {
             throw new IllegalArgumentException("非法defaultStatus");
         }
@@ -471,17 +484,17 @@ public abstract class AbstractDownloadMgr {
 
     public static abstract class Builder {
 
-        private MyOkHttp mMyOkhttp;
+        private OkHttpUtils mMyOkhttp;
         private int mMaxDownloadIngNum;     //同时最大下载数量
         private long mSaveProgressBytes;    //每下载bytes后保存一次下载进度
 
         public Builder() {
-            mMyOkhttp = new MyOkHttp();
+            mMyOkhttp = OkHttpUtils.getInstance();
             mMaxDownloadIngNum = DEFAULT_MAX_DOWNLOADING_NUM;
             mSaveProgressBytes = DEFAULT_SAVE_PROGRESS_BYTES;
         }
 
-        public Builder myOkHttp(@NonNull MyOkHttp myOkHttp) {
+        public Builder myOkHttp(@NonNull OkHttpUtils myOkHttp) {
             mMyOkhttp = myOkHttp;
             return this;
         }

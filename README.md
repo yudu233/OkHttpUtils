@@ -24,11 +24,7 @@ allprojects {
 在APP目录下的build.gradle中添加依赖
 
 ```java
-<<<<<<< HEAD
     compile 'com.github.yudu233:OkHttpUtils:1.0.8'
-=======
-    compile 'com.github.yudu233:OkHttpUtils:1.0.6'
->>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
     
 ```
 
@@ -40,15 +36,12 @@ allprojects {
 - [x] DELETE请求
 - [x] 单/多文件上传(可携带参数)
 - [x] 大文件上传和上传进度监听回调
-<<<<<<< HEAD
 - [x] 大文件下载和下载进度监听回调
 - [x] 支持可信证书和自签名证书的https的访问,支持双向认证
 - [x] 根据Tag取消请求
-=======
-- [ ] 大文件下载和下载进度监听回调
+- [x] 大文件下载和下载进度监听回调
 - [x] 支持可信证书和自签名证书的https的访问,支持双向认证
-- [ ] 根据Tag取消请求
->>>>>>> f4226e38b9786238a504abb7ce49641f1a93c8aa
+- [x] 根据Tag取消请求
 - [x] 自定义泛型Callback,支持JSON、GSON、原生数据
 - [x] 考虑实际开发单界面多组请求command区分，减少代码冗余
 - [x] 加载中、加载失败状态显示，可自定义

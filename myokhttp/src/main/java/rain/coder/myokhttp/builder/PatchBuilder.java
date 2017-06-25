@@ -1,11 +1,12 @@
 package rain.coder.myokhttp.builder;
 
+import org.json.JSONException;
+
 import okhttp3.MediaType;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import rain.coder.myokhttp.OkHttpUtils;
 import rain.coder.myokhttp.callback.CallBack;
-import rain.coder.myokhttp.response.IResponseHandler;
 import rain.coder.myokhttp.utils.LogUtils;
 
 /**
@@ -14,7 +15,7 @@ import rain.coder.myokhttp.utils.LogUtils;
  * Github:https://github.com/yudu233
  * Created by Rain on 2017/6/25 0025.
  */
-public class PatchBuilder extends OkHttpRequestBuilder<PatchBuilder>{
+public class PatchBuilder extends OkHttpRequestBuilder<PatchBuilder> {
 
     private static final String TAG = "PatchBuilder";
 
@@ -23,9 +24,9 @@ public class PatchBuilder extends OkHttpRequestBuilder<PatchBuilder>{
     }
 
     @Override
-    public void enqueue(final IResponseHandler responseHandler) {
+    public void enqueue(OkHttpUtils.RequestListener responseHandler) {
         try {
-            if(url == null || url.length() == 0) {
+            if (url == null || url.length() == 0) {
                 throw new IllegalArgumentException("url can not be null !");
             }
 
@@ -41,10 +42,14 @@ public class PatchBuilder extends OkHttpRequestBuilder<PatchBuilder>{
 
             myOkHttp.getOkHttpClient()
                     .newCall(request)
-                    .enqueue(new CallBack(responseHandler,command,showLoading));
+                    .enqueue(new CallBack(responseHandler, command, showLoading));
         } catch (Exception e) {
             LogUtils.eLog("Patch enqueue error:" + e.getMessage());
-            responseHandler.onErrorHttpResult(command,0);
+            try {
+                responseHandler.onErrorHttpResult(command, 0,null);
+            } catch (JSONException e1) {
+                e1.printStackTrace();
+            }
         }
     }
 }

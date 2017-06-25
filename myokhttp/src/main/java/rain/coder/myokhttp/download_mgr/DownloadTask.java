@@ -1,11 +1,10 @@
 package rain.coder.myokhttp.download_mgr;
 
-import com.tsy.sdk.myokhttp.MyOkHttp;
-import com.tsy.sdk.myokhttp.response.DownloadResponseHandler;
-
 import java.io.File;
 
 import okhttp3.Call;
+import rain.coder.myokhttp.OkHttpUtils;
+import rain.coder.myokhttp.response.DownloadResponseHandler;
 
 /**
  * Created by tangsiyuan on 2016/11/23.
@@ -13,7 +12,7 @@ import okhttp3.Call;
 
 public class DownloadTask {
 
-    private MyOkHttp mMyOkHttp;
+    private OkHttpUtils mMyOkHttp;
 
     private String mTaskId;     //task id
     private String mUrl;        //下载url
@@ -58,18 +57,18 @@ public class DownloadTask {
 
             @Override
             public void onProgress(long currentBytes, long totalBytes) {
-                if(mStatus == DownloadStatus.STATUS_DOWNLOADING) {
+                if (mStatus == DownloadStatus.STATUS_DOWNLOADING) {
                     mNextSaveBytes += mCompleteBytes + currentBytes - mCurrentBytes;        //叠加每次增加的bytes
                     mCurrentBytes = mCompleteBytes + currentBytes;      //当前已经下载好的bytes
                     mDownloadTaskListener.onProgress(mTaskId, mCurrentBytes, mTotalBytes);
-                } else if(mStatus == DownloadStatus.STATUS_PAUSE) {
+                } else if (mStatus == DownloadStatus.STATUS_PAUSE) {
                     mCompleteBytes = mCurrentBytes;
-                    if(!mCall.isCanceled()) {
+                    if (!mCall.isCanceled()) {
                         mCall.cancel();
                     }
                 } else {
                     mCompleteBytes = mCurrentBytes;
-                    if(!mCall.isCanceled()) {
+                    if (!mCall.isCanceled()) {
                         mCall.cancel();
                     }
                 }
@@ -91,10 +90,11 @@ public class DownloadTask {
 
     /**
      * 开始下载
+     *
      * @return
      */
     public boolean doStart() {
-        if(mStatus == DownloadStatus.STATUS_DOWNLOADING || mStatus == DownloadStatus.STATUS_FINISH) {
+        if (mStatus == DownloadStatus.STATUS_DOWNLOADING || mStatus == DownloadStatus.STATUS_FINISH) {
             return false;
         }
 
@@ -113,11 +113,11 @@ public class DownloadTask {
      * 暂停下载
      */
     public void doPause() {
-        if(mStatus == DownloadStatus.STATUS_PAUSE || mStatus == DownloadStatus.STATUS_FINISH) {
+        if (mStatus == DownloadStatus.STATUS_PAUSE || mStatus == DownloadStatus.STATUS_FINISH) {
             return;
         }
 
-        if(mStatus == DownloadStatus.STATUS_DOWNLOADING) {
+        if (mStatus == DownloadStatus.STATUS_DOWNLOADING) {
             mStatus = DownloadStatus.STATUS_PAUSE;
             mCall.cancel();
         } else {
@@ -129,19 +129,19 @@ public class DownloadTask {
         mDownloadTaskListener = null;
         mDownloadResponseHandler = null;
 
-        if(mCall != null) {
-            if(!mCall.isCanceled()) {
+        if (mCall != null) {
+            if (!mCall.isCanceled()) {
                 mCall.cancel();
             }
             mCall = null;
         }
     }
 
-    public MyOkHttp getMyOkHttp() {
+    public OkHttpUtils getMyOkHttp() {
         return mMyOkHttp;
     }
 
-    public void setMyOkHttp(MyOkHttp myOkHttp) {
+    public void setMyOkHttp(OkHttpUtils myOkHttp) {
         mMyOkHttp = myOkHttp;
     }
 

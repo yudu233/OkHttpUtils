@@ -13,6 +13,9 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 import rain.coder.myokhttp.OkHttpUtils;
+import rain.coder.myokhttp.body.ResponseProgressBody;
+import rain.coder.myokhttp.callback.MyDownloadCallback;
+import rain.coder.myokhttp.response.DownloadResponseHandler;
 import rain.coder.myokhttp.utils.LogUtils;
 
 /**
@@ -49,6 +52,7 @@ public class DownloadBuilder {
 
     /**
      * set file storage dir
+     *
      * @param fileDir file directory
      * @return
      */
@@ -59,6 +63,7 @@ public class DownloadBuilder {
 
     /**
      * set file storage name
+     *
      * @param fileName file name
      * @return
      */
@@ -69,6 +74,7 @@ public class DownloadBuilder {
 
     /**
      * set file path
+     *
      * @param filePath file path
      * @return
      */
@@ -79,6 +85,7 @@ public class DownloadBuilder {
 
     /**
      * set tag
+     *
      * @param tag tag
      * @return
      */
@@ -89,6 +96,7 @@ public class DownloadBuilder {
 
     /**
      * set headers
+     *
      * @param headers headers
      * @return
      */
@@ -99,13 +107,13 @@ public class DownloadBuilder {
 
     /**
      * set one header
+     *
      * @param key header key
      * @param val header val
      * @return
      */
     public DownloadBuilder addHeader(@NonNull String key, @NonNull String val) {
-        if (this.mHeaders == null)
-        {
+        if (this.mHeaders == null) {
             mHeaders = new LinkedHashMap<>();
         }
         mHeaders.put(key, val);
@@ -114,11 +122,12 @@ public class DownloadBuilder {
 
     /**
      * set completed bytes (BreakPoints)
+     *
      * @param completeBytes 已经完成的字节数
      * @return
      */
     public DownloadBuilder setCompleteBytes(@NonNull Long completeBytes) {
-        if(completeBytes > 0L) {
+        if (completeBytes > 0L) {
             this.mCompleteBytes = completeBytes;
             addHeader("RANGE", "bytes=" + completeBytes + "-");     //添加断点续传header
         }
@@ -127,16 +136,17 @@ public class DownloadBuilder {
 
     /**
      * 异步执行
+     *
      * @param downloadResponseHandler 下载回调
      */
     public Call enqueue(final DownloadResponseHandler downloadResponseHandler) {
         try {
-            if(mUrl.length() == 0) {
+            if (mUrl.length() == 0) {
                 throw new IllegalArgumentException("Url can not be null !");
             }
 
-            if(mFilePath.length() == 0) {
-                if(mFileDir.length() == 0 || mFileName.length() == 0) {
+            if (mFilePath.length() == 0) {
+                if (mFileDir.length() == 0 || mFileName.length() == 0) {
                     throw new IllegalArgumentException("FilePath can not be null !");
                 } else {
                     mFilePath = mFileDir + mFileName;
@@ -169,7 +179,7 @@ public class DownloadBuilder {
 
             return call;
         } catch (Exception e) {
-            LogUtils.e("Download enqueue error:" + e.getMessage());
+            LogUtils.eLog("Download enqueue error:" + e.getMessage());
             downloadResponseHandler.onFailure(e.getMessage());
             return null;
         }
@@ -178,11 +188,11 @@ public class DownloadBuilder {
     //检查filePath有效性
     private void checkFilePath(String filePath, Long completeBytes) throws Exception {
         File file = new File(filePath);
-        if(file.exists()) {
-            return ;
+        if (file.exists()) {
+            return;
         }
 
-        if(completeBytes > 0L) {       //如果设置了断点续传 则必须文件存在
+        if (completeBytes > 0L) {       //如果设置了断点续传 则必须文件存在
             throw new Exception("断点续传文件" + filePath + "不存在！");
         }
 
@@ -191,8 +201,8 @@ public class DownloadBuilder {
         }
 
         //判断目标文件所在的目录是否存在
-        if(!file.getParentFile().exists()) {
-            if(!file.getParentFile().mkdirs()) {
+        if (!file.getParentFile().exists()) {
+            if (!file.getParentFile().mkdirs()) {
                 throw new Exception("创建目标文件所在目录失败！");
             }
         }
