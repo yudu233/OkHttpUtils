@@ -10,7 +10,7 @@ import rain.coder.myokhttp.callback.CallBack;
 import rain.coder.myokhttp.response.IResponseHandler;
 
 /**
- * okHttp PostBuilder
+ * 在服务器新建一个资源
  * Created by Administrator on 2017/3/9 0009.
  */
 public class PostBuilder extends OkHttpRequestBuilder<PostBuilder> {

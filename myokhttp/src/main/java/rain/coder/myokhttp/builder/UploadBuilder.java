@@ -20,7 +20,7 @@ import rain.coder.myokhttp.response.IResponseHandler;
 import rain.coder.myokhttp.utils.LogUtils;
 
 /**
- * Describe :UploadBuilder
+ * Describe :上传
  * Created by Rain on 17-4-11.
  */
 public class UploadBuilder extends OkHttpRequestBuilder<UploadBuilder> {

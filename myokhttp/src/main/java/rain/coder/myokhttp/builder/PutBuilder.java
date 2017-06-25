@@ -9,7 +9,7 @@ import rain.coder.myokhttp.response.IResponseHandler;
 import rain.coder.myokhttp.utils.LogUtils;
 
 /**
- * Describe :PutBuilder
+ * 在服务器更新资源（客户端提供改变后的完整资源）。
  * Created by Rain on 17-4-18.
  */
 public class PutBuilder extends OkHttpRequestBuilder<PutBuilder> {

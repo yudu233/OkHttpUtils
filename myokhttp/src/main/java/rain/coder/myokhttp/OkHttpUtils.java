@@ -5,7 +5,9 @@ import android.os.Looper;
 
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
+import rain.coder.myokhttp.builder.DeleteBuilder;
 import rain.coder.myokhttp.builder.GetBuilder;
+import rain.coder.myokhttp.builder.PatchBuilder;
 import rain.coder.myokhttp.builder.PostBuilder;
 import rain.coder.myokhttp.builder.PutBuilder;
 import rain.coder.myokhttp.builder.UploadBuilder;
@@ -44,6 +46,7 @@ public class OkHttpUtils {
         return mOkHttpClient;
     }
 
+
     public static GetBuilder get() {
         return new GetBuilder(getInstance());
     }
@@ -59,6 +62,19 @@ public class OkHttpUtils {
     public static PutBuilder put() {
         return new PutBuilder(getInstance());
     }
+
+    public PatchBuilder patch(){
+        return new PatchBuilder(this);
+    }
+
+    public DeleteBuilder delete(){
+        return new DeleteBuilder(this);
+    }
+
+    public DownloadBuilder download() {
+        return new DownloadBuilder(this);
+    }
+
 
 
 }

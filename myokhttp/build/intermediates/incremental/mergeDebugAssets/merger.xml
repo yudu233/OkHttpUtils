@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="G:\AndroidProjrct\Company\http\OkHttpUtils\myokhttp\src\main\assets"/></dataSet><dataSet config="debug"><source path="G:\AndroidProjrct\Company\http\OkHttpUtils\myokhttp\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="G:\AndroidProjrct\Company\网络请求框架\OkHttpUtils\myokhttp\src\main\assets"/></dataSet><dataSet config="debug"><source path="G:\AndroidProjrct\Company\网络请求框架\OkHttpUtils\myokhttp\src\debug\assets"/></dataSet></merger>

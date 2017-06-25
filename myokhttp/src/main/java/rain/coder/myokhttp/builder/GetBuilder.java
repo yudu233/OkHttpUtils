@@ -9,6 +9,7 @@ import rain.coder.myokhttp.response.IResponseHandler;
 import rain.coder.myokhttp.utils.LogUtils;
 
 /**
+ * 从服务器取出资源（一项或多项）
  * Created by Administrator on 2017/3/9 0009.
  */
 public class GetBuilder extends OkHttpRequestBuilder<GetBuilder> {
